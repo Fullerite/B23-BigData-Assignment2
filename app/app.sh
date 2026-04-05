@@ -13,14 +13,13 @@ source .venv/bin/activate
 pip install -r requirements.txt  
 
 # Package the virtual env.
-venv-pack -o .venv.tar.gz
+venv-pack -f -o .venv.tar.gz
 
 # Collect data
 bash prepare_data.sh
-
 
 # Run the indexer
 bash index.sh
 
 # Run the ranker
-bash search.sh "this is a query!"
+bash search.sh "big data"
