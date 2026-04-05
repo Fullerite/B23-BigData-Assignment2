@@ -31,4 +31,3 @@ This project implements a distributed search engine using the Okapi BM25 ranking
 - **OS**: PopOS Linux
 - **Resources**: 16GB RAM, 8-core CPU
 - **Data**: ~1,172 Wikipedia documents sampled from `o.parquet`.
-```
